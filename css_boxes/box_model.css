@@ -1,0 +1,46 @@
+div {
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  border: 5px solid black;
+}
+
+#first-div {
+  background-color: #39cccc;
+}
+
+#second-div {
+  background-color: #ff4136;
+  box-sizing: border-box;
+}
+
+p {
+  background-color: #7fdbff;
+}
+
+#third-div {
+  /* overflow: auto;
+  resize: both; */
+  height: auto;
+  width: auto;
+  min-height: 10px;
+  background-color: red;
+}
+
+.image-1-container {
+  width: auto;
+  height: auto;
+  background-color: green;
+  display: inline-block;
+}
+
+img {
+  /* width: 50%; */
+  height: 50%;
+}
+
+.image-2-container {
+  width: auto;
+  height: auto;  
+  display: inline-block;
+}
