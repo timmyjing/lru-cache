@@ -65,12 +65,16 @@ class ResizingIntSet
   end
 
   def insert(num)
+    @store[num % num_buckets] << num
+    p @store
+    @count += 1
   end
 
   def remove(num)
   end
 
   def include?(num)
+    @store[num % num_buckets].include?(num)
   end
 
   private
